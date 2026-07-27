@@ -68,7 +68,7 @@ if st.button("🚀 Analyze ATS Match", type="primary"):
                 4. **Actionable Suggestions**: (Provide 3 specific bullet points to tailor the resume)
                 """
 
-                model = genai.GenerativeModel("gemini-1.5-flash-latest")
+                model = genai.GenerativeModel("gemini-2.5-flash")
                 response = model.generate_content(prompt)
 
                 st.success("Analysis Complete!")
